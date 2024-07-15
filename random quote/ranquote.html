@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>RanQuote</title>
+
+</head>
+
+<body>
+
+    <button class="button" data-text="Awesome">
+        <span class="actual-text">&nbsp;Random Quote&nbsp;</span>
+        <span aria-hidden="true" class="hover-text">&nbsp;RandomQuote&nbsp;</span>
+    </button>
+    
+    <div class="container">
+        <div class="card">
+            <div class="card-body h">
+                <h2 class="card-title text-center text-primary h1 fw-bold"><br>Get Your Quote😁</h2>
+                <p id="quote" class="card-text my-5"></p>
+            </div>
+        </div>
+        <div class="card-footer d-inline-block">
+            <button class="btn btn-primary" onclick="generateRanQuote()">Get Another Quote😎</button>
+        </div>
+    </div>
+
+
+    <script src="ran.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
