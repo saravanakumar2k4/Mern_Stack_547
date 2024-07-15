@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="parent">
+        <input type="text" id="display" readonly placeholder="0" >
+        <div class="cbody">
+            <button class="clear" onclick="cle()">AC</button>
+            <button class="a" onclick="nege()">+/-</button>
+            <button class="a" onclick="appendTODisplay('%')">%</button>
+            <button class="a" onclick="appendTODisplay('/')">/</button>
+            <button class="" onclick="appendTODisplay('7')">7</button>
+            <button class="" onclick="appendTODisplay('8')">8</button>
+            <button class="" onclick="appendTODisplay('9')">9</button>
+            <button class="a" onclick="appendTODisplay('+')">+</button>
+            <button class="" onclick="appendTODisplay('4')">4</button>
+            <button class="" onclick="appendTODisplay('5')">5</button>
+            <button class="" onclick="appendTODisplay('6')">6</button>
+            <button class="a" onclick="appendTODisplay('-')">-</button>
+            <button class="" onclick="appendTODisplay('1')">1</button>
+            <button class="" onclick="appendTODisplay('2')">2</button>
+            <button class="" onclick="appendTODisplay('3')">3</button>
+            <button class="a" onclick="appendTODisplay('*')">*</button>
+            <button class="" onclick="appendTODisplay('0')">0</button>
+            <button class="" onclick="appendTODisplay('.')">.</button>
+            <button class="" onclick="backspace()">Del</button>
+            <button class="a" onclick="calculate('=')">=</button>
+
+        <!-- script -->
+         <script src="calc.js"></script>
+        </div>
+
+    </div>
+</body>
+</html>
