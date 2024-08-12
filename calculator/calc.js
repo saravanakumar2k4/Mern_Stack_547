@@ -15,7 +15,7 @@ function calculate(){
         disp.value=eval(equation);
 
     }catch(e){
-        disp.value='poda dai';
+        disp.value='Math Error';
     }
 }
 
